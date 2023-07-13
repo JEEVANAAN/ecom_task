@@ -1,0 +1,137 @@
+.head1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 41px;
+}
+.head2{
+    /* margin-left: 41px; */
+}
+.head3{
+    
+    margin-right: -66px;
+
+    margin-top: 2px;
+}
+.head4{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    gap: 29px;
+    margin-top: -3px;
+    width: 174px;
+    margin-left: 127px; 
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin-top:14px;
+    margin-left:39px;
+}
+.list1{
+    border: 1px solid black;
+    height: 58px;
+    margin-top: -15px;
+    width: 76px;
+    padding: 15px;    
+    
+
+}
+.list2{
+    border:1px solid black;
+     height: 58px;
+    margin-top: -15px;
+}
+.card1{
+
+    /* height: 50px; */
+    background: black;
+    margin-top: 189px;
+    padding-left: 333px;
+    /* display: flex; */
+    padding-bottom: 2px;
+    padding-top: 37px;
+}
+.cardwidth{
+    width: 21rem; border:none;
+}
+.card2{
+    display: flex;
+    justify-content: end;
+    margin-top: -23px;
+    margin-right: 17px;
+}
+.cardimg{
+    margin-top: -5px;
+    margin-right: 11px;
+}
+.card4{
+    display: flex;gap: 49px;
+}
+.card5{
+    display: flex;
+    gap: 7px;
+}
+.money{
+    color: white;
+    margin-left: 11px;
+    margin-top: -39px;
+}
+.size{
+    border: 1px solid black;
+    width: 32px;
+    border-radius: 100px;
+    height: 32px;
+    padding: 3px;
+    padding-left: 6px;
+}
+.colore{
+    border: 1px solid black;
+    width: 32px;
+    border-radius: 100px;
+    height: 32px;
+    padding: 3px;
+    padding-left: 6px;
+}
+.color1{
+    background-color: aqua;
+}
+.color2{
+    background-color: rgb(146, 102, 102);
+}
+.color3{
+    background-color: burlywood;
+}
+
+  input[type='radio']:checked:after {
+    content: '\2713';
+    color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    margin-top: -3px;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+  }
+  input[type='radio']{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 35px !important;
+    height:35px !important;
+    appearance:none;
+    border-radius:10%;
+    border-radius: 22px;
+    border: 1px solid black;
+    box-shadow: none;
+    font-size: 26px;
+  }
+  .list10{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 100px;
+    color: wheat;
+    background: black;
+  }
